@@ -19,7 +19,7 @@ const update_price=setInterval(() => {
 
 const update_prices=setInterval(() => {
   for (let index = 0; index < stocks.length; index++) {
-    stocks[index].price+=prices+=Math.random()*10   
+    stocks[index].price+=stocks[index].price+=Math.random()*10   
   }
 }, 1000);
 
